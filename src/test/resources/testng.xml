@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="APITestSuite">
+    <test name="FavouriteQuotesTest">
+        <classes>
+            <class name="org.apitests.FavouriteQuotesTest"/>
+        </classes>
+    </test>
+    <test name="ListQuotesTest">
+        <classes>
+            <class name="org.apitests.ListQuotesTest"/>
+        </classes>
+    </test>
+</suite>
